@@ -1,0 +1,17 @@
+---
+layout: default
+pagination:
+  enabled: true
+  collection: sparks
+---
+
+<h1 class="elemental air">Discussion sparks</h1>
+<div class="characters-list">
+    {%- for spark in paginator.posts -%}
+    <div class="character-card spark">
+        <h2><a href="{{ spark.url | relative_url }}">{{ spark.title }}</a></h2>
+    </div>
+    {% endfor %}
+</div>
+
+{% include pagination.html paginator=paginator  type="sparks" %}

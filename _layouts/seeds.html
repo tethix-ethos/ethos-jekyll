@@ -1,0 +1,22 @@
+---
+layout: default
+pagination:
+  enabled: true
+  collection: seeds
+---
+
+<h1 class="elemental earth">Seed Catalog</h1>
+<div class="characters-list">
+    {%- for seed in paginator.posts -%}
+    <div class="character-card">
+      <h2><a href="{{ seed.url | relative_url }}">{{ seed.title }}</a></h2>
+    
+      <ul class="list-of-creators">Crafted by:
+        <li class="list-other">{{ seed.author }}</li>
+      </ul>
+      <p class="tagline">{% if seed.description %}{{ seed.description | truncate: 280 }}{% else %}{{ seed.content | strip_html | truncate: 280 }}{% endif %}</p>
+    </div>
+    {%- endfor -%}
+</div>
+
+{% include pagination.html paginator=paginator  type="seeds" %}

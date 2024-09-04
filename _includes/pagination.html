@@ -1,0 +1,18 @@
+{% assign paginator = include.paginator %}
+<div class="pagination">
+  <div class="step-links">
+    {% if paginator.previous_page %}
+    <a class="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&lt; Previous {{ include.type | default: "posts" }}</a>
+    {% endif %}
+  </div>
+
+  <div class="current-page">
+      Page {{ paginator.page }} of {{ paginator.total_pages }}
+  </div>
+
+  <div class="step-links">
+    {% if paginator.next_page %}
+    <a class="next" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next {{ include.type | default: "posts" }} &gt;</a>
+    {% endif %}
+  </div>
+</div>

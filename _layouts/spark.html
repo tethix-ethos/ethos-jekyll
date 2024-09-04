@@ -1,0 +1,20 @@
+---
+layout: default
+pagination:
+  enabled: true
+  collection: sparks
+---
+
+<div class="breadcrumbs">
+  {% include elemental_icon.html element='air' size=18 %}
+  <a href="/sparks">Sparks</a> > {{ page.title }}
+</div>
+
+<div class="character-card detail-view">
+    <div class="character-card spark">
+        <h2>{{ page.title }}</h2>
+    </div>
+
+    {{ content }}
+    
+</div>

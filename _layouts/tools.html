@@ -1,0 +1,23 @@
+---
+layout: default
+pagination:
+  enabled: true
+  collection: tools
+---
+
+<h1 class="elemental fire">Tools and techniques</h1>
+<div class="characters-list">
+    {%- for tool in paginator.posts -%}
+    <div class="character-card">
+      <h2><a href="{{ tool.url | relative_url }}">{{ tool.title }}</a></h2>
+    
+      <ul class="list-of-creators">Crafted by:
+        <li class="list-other">{{ tool.author }}</li>
+      </ul>
+
+      <p class="tagline">{% if tool.description %}{{ tool.description | truncate: 280 }}{% else %}{{ tool.content | strip_html | truncate: 280 }}{% endif %}</p>
+    </div>
+    {%- endfor -%}
+</div>
+
+{% include pagination.html paginator=paginator type="tools" %}

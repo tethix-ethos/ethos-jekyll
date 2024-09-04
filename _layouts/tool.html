@@ -1,0 +1,26 @@
+---
+layout: default
+pagination:
+  enabled: true
+  collection: tools
+---
+
+<div class="breadcrumbs">
+  {% include elemental_icon.html element='fire' size=18 %}
+  <a href="/tools">Tools</a> > {{ page.title }}
+</div>
+
+{% include pagination_single.html paginator=paginator %}
+
+<div class="character-card detail-view">
+    <h2>{{ page.title }}</h2>
+
+    <ul class="list-of-creators">Crafted by:
+      <li class="list-other">{{ page.author }}</li>
+    </ul>
+
+    {{ content }}
+
+    <p><a href="{{ page.website }}" class="external">Learn more about the tool</a></p> 
+    
+</div>

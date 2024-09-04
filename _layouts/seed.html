@@ -1,0 +1,32 @@
+---
+layout: default
+pagination:
+  enabled: true
+  collection: seeds
+---
+
+<div class="breadcrumbs">
+  {% include elemental_icon.html element='earth' size=18 %}
+  <a href="/seed-set">Seed Catalog</a> > {{ page.title }}
+</div>
+
+{% include pagination_single.html paginator=paginator %}
+
+<div class="character-card detail-view">
+    <h1>{{ page.title }}</h1>
+    
+    <ul class="list-of-creators">Crafted by:
+      <li class="list-other">{{ page.author }}</li>
+    </ul>
+
+    {% if page.description %}
+    <p class="tagline">{{ page.description }}</p>
+    {% endif %}
+
+    {% if page.website %}<p><a href="{{ page.website }}" class="external">More about the set</a></p>{% endif %}   
+
+    <div class="detail-section">
+        {{ content }}
+    </div>
+    
+</div>

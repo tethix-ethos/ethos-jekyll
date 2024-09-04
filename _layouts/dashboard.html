@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+{%- include head.html -%}
+<body class="dashboard">
+
+  {%- include header.html -%}
+  
+  <div id="dashboard-player">
+      <audio id="soundscape" loop>
+          <source src="/assets/audio/garden.mp3" type="audio/mpeg"/>
+      </audio>
+      <button class="player-play-btn player-button" role="button" aria-label="Play" data-playing="false">
+          <div class="player-icon-play">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>play</title><polygon class="icon-play" points="19.05 12 6 3.36 6 20.64 19.05 12"/><rect class="icon-container" width="24" height="24"/></svg>
+          </div>
+          <div class="player-icon-pause hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>pause</title><g><rect  class="icon-pause" x="6" y="3.26" width="4" height="17.48"/><rect class="icon-pause" x="14" y="3.26" width="4" height="17.48"/></g><rect class="icon-container" width="24" height="24"/></svg>
+          </div>
+      </button>
+      <div class="player-volume-container">
+          <input type="range" id="volume" min="0" max="1" value="0.2" step="0.01" class="player-volume" />
+      </div>
+      <button class="player-mute-btn player-button" role="button" aria-label="Mute">
+          <div class="player-icon-volume">
+              <svg viewBox="0 0 19.54 18.03" class="bi bi-volume-up" fill="white" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="m8.58,2.34c.26.12.42.39.42.68v12c0,.41-.34.75-.75.75-.17,0-.33-.06-.47-.16l-3.54-2.84H.75c-.41,0-.75-.34-.75-.75v-6c0-.41.34-.75.75-.75h3.49l3.54-2.83c.23-.18.53-.22.79-.09Zm-1.08,2.24l-2.53,2.02c-.13.11-.3.16-.47.17H1.5v4.5h3c.17,0,.34.06.47.16l2.53,2.03V4.58Z"></path>
+                  <g id="audioplayer_volume_icon_playing_high" class="hidden"><path d="m15.8,18.03c2.39-2.39,3.74-5.63,3.73-9.02,0-3.38-1.34-6.63-3.73-9.02l-1.06,1.06c2.11,2.11,3.3,4.97,3.3,7.95,0,3.11-1.26,5.92-3.3,7.95,0,0,1.06,1.06,1.06,1.06Z"></path></g>
+                  <g id="audioplayer_volume_icon_playing_mid" class="hidden"><path d="m13.68,15.91c1.83-1.83,2.86-4.31,2.86-6.89,0-2.59-1.02-5.07-2.86-6.89l-1.06,1.06c1.55,1.55,2.42,3.64,2.42,5.83,0,2.19-.87,4.29-2.41,5.84,0,0,1.06,1.06,1.06,1.06Z"></path></g>
+                  <g id="audioplayer_volume_icon_playing_low"><path d="m11.56,13.79c1.27-1.26,1.98-2.98,1.98-4.77,0-1.79-.71-3.51-1.98-4.77l-1.06,1.06c.99.98,1.54,2.32,1.54,3.71,0,1.39-.55,2.73-1.54,3.71l1.06,1.06Z"></path></g>
+                  <g id="audioplayer_volume_icon_playing_muted" class="hidden"><path d="m18.28,5.47c.3.3.3.76,0,1.07h0l-2.48,2.47,2.48,2.47c.3.3.3.77,0,1.07s-.76.3-1.07,0l-2.48-2.48-2.47,2.48c-.3.3-.76.3-1.06,0s-.3-.77,0-1.07l2.47-2.48-2.44-2.49c-.3-.28-.3-.77,0-1.05.3-.28.77-.3,1.05,0h0l2.47,2.47,2.48-2.47c.3-.3.76-.3,1.07,0h-.02Z"></path></g>
+              </svg>
+          </div>
+      </button>
+  </div>
+  <div class="dashboard-status" style="display: none;">
+      <button class="person-status resting">
+      </button>
+  </div>
+  <main class="dashboard-page">
+      
+      <div class="dashboard-intro">
+          <h1>Hello, human.</h1>
+      </div>
+  
+      <div class="dashboard-content">
+          <p>Take a deep breath.</p>
+          <p>Chance invites you to reflect on the following question:</p>
+          <div id="question" class="dashboard-question"></div>
+          <p><button id="new-question">Choose a different question</button></p>
+      </div>
+      
+  </main>
+
+  <script>
+    // Load the reflection questions as a JSON
+    const questions = [
+        {% for reflection in site.data.reflections %}
+        {
+            "question": "{{ reflection.question | escape }}"
+        }{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+    ];
+
+    // Choose a random question & update the page content
+    function displayRandomQuestion() {
+        const randomIndex = Math.floor(Math.random() * questions.length);
+        const randomQuestion = questions[randomIndex];
+
+        document.getElementById('question').innerText = randomQuestion.question;
+    }
+
+    // Set an initial random question when the page loads
+    displayRandomQuestion();
+
+    // Add event listener to the button for selecting a new question
+    document.getElementById('new-question').addEventListener('click', displayRandomQuestion);
+  </script>
+  <script src="/assets/js/dashboard-player.js"></script>
+  
+</body>
+</html>
