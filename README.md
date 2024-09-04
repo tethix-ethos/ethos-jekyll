@@ -40,3 +40,22 @@ To get a local copy up and running follow these simple steps.
   ```
 
 If you run into any problems, Jekyll documentation has all the information you need to set up your machine, and build and run a Jekyll site: https://jekyllrb.com/docs/.
+
+## Modifying content
+
+The website uses **three collections** for three types of content:
+
+- `_sparks`: discussion sparks,
+- `_seeds`: seed sets with ethical principles and guidelines,
+- `_tools`: ethical tools and techniques.
+
+To add a new spark, seed set, or tool, just create a new Markdown file in the appropriate directory and follow the template of other files.
+
+The ETHOS Django dashboard has been transformed into a **page for reflection**. It randomly selects a question defined in `_data/reflections.yml`, so if you want to edit the questions, edit that file. (Note: the elements part of the reflection questions isn't being used yet.)
+
+Other folders:  
+- **Pages** such as `about` are defined in the `pages` folder, with the exception of `index.html`. 
+- Pages reference **layouts** that can be found in `_layouts` folder, and layouts and pages might reference **includes** from the `_includes` folder. 
+- **Assets** such ass CSS, JS, images, etc. can be found in the `assets` folder. 
+
+
