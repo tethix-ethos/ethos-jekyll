@@ -1,6 +1,6 @@
 # About this website
 
-The website is built in Jekyll 4.0 and deploys to GitLab pages. 
+The website is built in Jekyll 4.0 and deploys to GitHub pages. 
 
 It was built on top of Jekyll's default *minima* theme and uses the following plugins:
 

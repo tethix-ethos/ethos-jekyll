@@ -40,7 +40,7 @@ collections:
     sort_by: title
   seeds:
     output: true
-    permalink: /seed-set/:title/
+    permalink: /seed-catalog/:title/
     sort_by: date, title
   tools:
     output: true

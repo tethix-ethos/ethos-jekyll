@@ -1,7 +1,7 @@
 ---
 layout: seeds
 title: Seed Catalog
-permalink: /seed-set/
+permalink: /seed-catalog/
 pagination:
   enabled: true
   collection: seeds

@@ -6,9 +6,9 @@
   {%- include header.html -%}
   
   <div id="dashboard-player">
-      <audio id="soundscape" loop>
-          <source src="/assets/audio/garden.mp3" type="audio/mpeg"/>
-      </audio>
+    <audio id="soundscape" loop>
+        <source src="{{ '/assets/audio/garden.mp3' | relative_url }}" type="audio/mpeg"/>
+    </audio>
       <button class="player-play-btn player-button" role="button" aria-label="Play" data-playing="false">
           <div class="player-icon-play">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>play</title><polygon class="icon-play" points="19.05 12 6 3.36 6 20.64 19.05 12"/><rect class="icon-container" width="24" height="24"/></svg>
@@ -75,7 +75,7 @@
     // Add event listener to the button for selecting a new question
     document.getElementById('new-question').addEventListener('click', displayRandomQuestion);
   </script>
-  <script src="/assets/js/dashboard-player.js"></script>
+  <script src="{{ '/assets/js/dashboard-player.js' | relative_url }}"></script>
   
 </body>
 </html>

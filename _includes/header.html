@@ -1,5 +1,5 @@
 <header id="page-header"{% if page.header_class %} class="{{ page.header_class }}"{% endif %}>
-    <a href="/"><img id="site-logo" src="/assets/img/ETHOS-logo.svg" alt="ETHOS logo" width="100px"></a>
+    <a href="{{ '/' | relative_url }}"><img id="site-logo" src="{{ '/assets/img/ETHOS-logo.svg' | relative_url }}" alt="ETHOS logo" width="100px"></a>
     <nav role="navigation" class="site-nav" aria-label="Primary">
         
         <input type="checkbox" id="show-site-nav" />
@@ -8,12 +8,12 @@
         </label>
         <ul id="site-nav-items">
             {% assign page_url = page.url | trim: '/' %}
-            <li class="mobile-nav-only"><a href="/" class="water{% if page_url == '/' %} current{% endif %}">Home</a></li>
-            <li><a href="/sparks" class="air{% if page_url contains '/sparks' %} current{% endif %}">Sparks</a></li>
-            <li><a href="/seed-set" class="earth{% if page_url contains '/seed-set' %} current{% endif %}">Seed Catalog</a></li>
-            <li><a href="/tools" class="fire{% if page_url contains '/tools' %} current{% endif %}">Tools</a></li>
-            <li><a href="/reflect" class="water{% if page_url == '/reflect/' %} current{% endif %}">Reflect</a></li>
-            <li><a href="/about" class="water{% if page_url contains '/about' %} current{% endif %}">About</a></li>
+            <li class="mobile-nav-only"><a href="{{ '/' | relative_url }}" class="water{% if page_url == '/' %} current{% endif %}">Home</a></li>
+            <li><a href="{{ '/sparks/' | relative_url }}" class="air{% if page_url contains '/sparks' %} current{% endif %}">Sparks</a></li>
+            <li><a href="{{ '/seed-catalog/' | relative_url }}" class="earth{% if page_url contains '/seed-catalog' %} current{% endif %}">Seed Catalog</a></li>
+            <li><a href="{{ '/tools/' | relative_url }}" class="fire{% if page_url contains '/tools' %} current{% endif %}">Tools</a></li>
+            <li><a href="{{ '/reflect/' | relative_url }}" class="water{% if page_url == '/reflect/' %} current{% endif %}">Reflect</a></li>
+            <li><a href="{{ '/about/' | relative_url }}" class="water{% if page_url contains '/about' %} current{% endif %}">About</a></li>
         </ul>
     </nav>
 </header>

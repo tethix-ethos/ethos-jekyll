@@ -7,7 +7,7 @@ pagination:
 
 <div class="breadcrumbs">
   {% include elemental_icon.html element='earth' size=18 %}
-  <a href="/seed-set">Seed Catalog</a> > {{ page.title }}
+  <a href="{{ '/seed-catalog/' | relative_url }}">Seed Catalog</a> > {{ page.title }}
 </div>
 
 {% include pagination_single.html paginator=paginator %}

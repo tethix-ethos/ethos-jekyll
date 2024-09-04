@@ -7,7 +7,7 @@ pagination:
 
 <div class="breadcrumbs">
   {% include elemental_icon.html element='fire' size=18 %}
-  <a href="/tools">Tools</a> > {{ page.title }}
+  <a href="{{ '/tools/' | relative_url }}">Tools</a> > {{ page.title }}
 </div>
 
 {% include pagination_single.html paginator=paginator %}

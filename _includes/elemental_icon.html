@@ -1,1 +1,4 @@
-<img src="/assets/img/{{include.element}}.svg" style="vertical-align: middle; padding-right: 6px" width="{{include.size}}px" height="{{include.size}}px" />
+{% assign image_path = '/assets/img/' | append: include.element | append: '.svg' %}
+<img src="{{ image_path | relative_url }}" 
+     style="vertical-align: middle; padding-right: 6px" 
+     width="{{ include.size }}px" height="{{ include.size }}px" />
