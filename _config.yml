@@ -22,8 +22,8 @@ title: ETHOS
 email: ethos@tethix.co
 description: >- # this means to ignore newlines until "baseurl:"
   ETHOS is your responsible tech journey companion. Explore Elemental Sparks, the Seed Catalog, and Tools Directory to inspire discussion, reflection, and practice. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/ethos-jekyll" # the subpath of your site, e.g. /blog
+url: "https://tethix-ethos.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
