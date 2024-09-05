@@ -1,14 +1,19 @@
-# About this website
+# About ETHOS
 
-The website is built in Jekyll 4.0 and deploys to GitHub pages. 
+![Tethix ETHOS](./assets/img/tethix-ethos-feature-img.png)
 
-It was built on top of Jekyll's default *minima* theme and uses the following plugins:
+ETHOS is a tool that can support your responsible tech journey in different ways. You can find more about ETHOS on the about page or keep reading to find more about how you can run your own version. 
 
-- [jekyll-feed](https://github.com/jekyll/jekyll-feed): for generating an RSS feed of blog posts,
+## Tech stack 
+
+This version of ETHOS uses Jekyll 4 and deploys to GitHub Pages. 
+
+The project uses the following plugins:
+
+- [jekyll-feed](https://github.com/jekyll/jekyll-feed): for generating RSS feeds for different collections,
 - [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag): for adding SEO-friendly tags in the header,
-- [jekyll-paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2): for adding pagination and generating autopages for categories and tags,
+- [jekyll-paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2): for adding pagination to collections and generating autopages for categories and tags,
 - [jekyll-target-blank](https://keith-mifsud.me/projects/jekyll-target-blank): to open all external links in a new window in a safe way.
-
 
 ## Getting started on macOS
 
@@ -51,11 +56,13 @@ The website uses **three collections** for three types of content:
 
 To add a new spark, seed set, or tool, just create a new Markdown file in the appropriate directory and follow the template of other files.
 
-The ETHOS Django dashboard has been transformed into a **page for reflection**. It randomly selects a question defined in `_data/reflections.yml`, so if you want to edit the questions, edit that file. (Note: the elements part of the reflection questions isn't being used yet.)
+The ETHOS **reflect page** randomly selects a question defined in `_data/reflections.yml`, so if you want to edit the questions, edit that file.
 
 Other folders:  
 - **Pages** such as `about` are defined in the `pages` folder, with the exception of `index.html`. 
 - Pages reference **layouts** that can be found in `_layouts` folder, and layouts and pages might reference **includes** from the `_includes` folder. 
 - **Assets** such ass CSS, JS, images, etc. can be found in the `assets` folder. 
 
+## Questions?
 
+If you have any additional questions, we welcome new [discussions](https://github.com/tethix-ethos/ethos-jekyll/discussions). 
