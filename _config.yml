@@ -22,7 +22,7 @@ title: ETHOS
 author: Tethix
 email: ethos@tethix.co
 description: >- # this means to ignore newlines until "baseurl:"
-  ETHOS is your responsible tech journey companion. Explore Elemental Sparks, the Seed Catalog, and Tools Directory to inspire discussion, reflection, and practice. 
+  ETHOS is your responsible tech journey companion. Explore ETHOS intents to inspire discussion, research, and practice. Or take a seat underneath the ETHOS tree to reflect, and start nurturing your own ETHOS. 
 baseurl: "/ethos-jekyll" # the subpath of your site, e.g. /blog
 url: "https://tethix-ethos.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
