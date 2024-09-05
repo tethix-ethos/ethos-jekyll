@@ -2,7 +2,7 @@
 <div class="pagination">
   <div class="step-links">
     {% if paginator.previous_page %}
-    <a class="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&lt; Previous {{ include.type | default: "posts" }}</a>
+    <a class="prev" href="{{ paginator.previous_page_path | relative_url }}">&lt; Previous {{ include.type | default: "posts" }}</a>
     {% endif %}
   </div>
 
@@ -12,7 +12,7 @@
 
   <div class="step-links">
     {% if paginator.next_page %}
-    <a class="next" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next {{ include.type | default: "posts" }} &gt;</a>
+    <a class="next" href="{{ paginator.next_page_path | relative_url }}">Next {{ include.type | default: "posts" }} &gt;</a>
     {% endif %}
   </div>
 </div>

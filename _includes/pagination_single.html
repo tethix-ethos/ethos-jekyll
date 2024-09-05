@@ -1,12 +1,12 @@
 <div class="pagination">
     <div class="step-links">
     {% if page.next.url %}
-      <a class="prev" href="{{page.next.url}}">&lt; {{page.next.title | truncate: 60}}</a>
+      <a class="prev" href="{{ page.next.url | relative_url }}">&lt; {{page.next.title | truncate: 60}}</a>
     {% endif %}
     </div>
     <div class="step-links">
     {% if page.previous.url %}
-      <a class="next" href="{{page.previous.url}}">{{page.previous.title | truncate: 60}} &gt;</a>
+      <a class="next" href="{{ page.previous.url | relative_url }}">{{page.previous.title | truncate: 60}} &gt;</a>
     {% endif %}
     </div>
 </div>
