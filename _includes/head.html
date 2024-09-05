@@ -4,8 +4,11 @@
   {%- seo -%}
 
   {%- include favicon.html -%}
-
+  
   <link rel="stylesheet" href="{{ '/assets/base.css' | relative_url }}">
   
-  {%- feed_meta -%}
+  <link rel="alternate" type="application/rss+xml" title="ETHOS Elemental Sparks" href="{{ site.feed.collections.sparks.path | relative_url }}" />
+  <link rel="alternate" type="application/rss+xml" title="ETHOS Seed Catalog" href="{{ site.feed.collections.seeds.path | relative_url }}" />
+  <link rel="alternate" type="application/rss+xml" title="ETHOS Tools Directory" href="{{ site.feed.collections.tools.path | relative_url }}" />
+
 </head>
