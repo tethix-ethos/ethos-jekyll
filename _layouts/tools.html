@@ -6,6 +6,7 @@ pagination:
 ---
 
 <h1 class="elemental fire">Tools and techniques</h1>
+<p>{{ content | markdownify }}</p>
 <div class="intents-list">
     {%- for tool in paginator.posts -%}
     <div class="intent-card">
