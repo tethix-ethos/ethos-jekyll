@@ -63,6 +63,6 @@ Other folders:
 - Pages reference **layouts** that can be found in `_layouts` folder, and layouts and pages might reference **includes** from the `_includes` folder. 
 - **Assets** such ass CSS, JS, images, etc. can be found in the `assets` folder. 
 
-## Questions?
+## Questions or issues?
 
-If you have any additional questions, we welcome new [discussions](https://github.com/tethix-ethos/ethos-jekyll/discussions). 
+If you have any additional questions, we welcome new [discussions](https://github.com/tethix-ethos/ethos-jekyll/discussions) or [issue reports](https://github.com/tethix-ethos/ethos-jekyll/issues).
