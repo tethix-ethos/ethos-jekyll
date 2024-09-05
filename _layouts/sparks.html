@@ -6,9 +6,9 @@ pagination:
 ---
 
 <h1 class="elemental air">Discussion sparks</h1>
-<div class="characters-list">
+<div class="intents-list">
     {%- for spark in paginator.posts -%}
-    <div class="character-card spark">
+    <div class="intent-card spark">
         <h2><a href="{{ spark.url | relative_url }}">{{ spark.title }}</a></h2>
     </div>
     {% endfor %}
