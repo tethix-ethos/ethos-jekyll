@@ -1,0 +1,101 @@
+---
+layout: default
+---
+
+{% assign mirrors = site.data.mirrors | sort: "order" %}
+{% assign mirror = mirrors | where: "type", page.type | first %}
+{% assign currentOrder = mirror.order %}
+{% if currentOrder == 1 %}
+  {% assign prevOrder = mirrors.size %}
+{% else %}
+  {% assign prevOrder = mirror.order | minus: 1 %}
+{% endif %}
+
+{% if currentOrder == mirrors.size %}
+  {% assign nextOrder = 1 %}
+{% else %}
+  {% assign nextOrder = mirror.order | plus: 1 %}
+{% endif %}
+
+
+<div class="mirror-container">
+  <div class="mirror-grid">
+    <!-- Previous Mirror -->
+    <div class="prev-column">
+      {% assign prevMirror = mirrors | where: "order", prevOrder | first %}
+      <a href="{{ '/mirrors/' | append: prevMirror.type | relative_url }}" class="prev-arrow">← Previous</a>
+      <p class="mirror-title">{{ prevMirror.title }}</p>
+    </div>
+
+    <!-- Mirror Image and Title -->
+    <div class="mirror-header">
+      <img src="{{ '/assets/img/mirror-' | append: mirror.type | append: '.svg' | relative_url }}" alt="{{ mirror.title }} Image">
+      <h1>{{ mirror.title }}</h1>
+    </div>
+
+    <!-- Next Mirror -->
+    <div class="next-column">
+      {% assign nextMirror = mirrors | where: "order", nextOrder | first %}
+      <a href="{{ '/mirrors/' | append: nextMirror.type | relative_url }}" class="next-arrow">Next →</a>
+      <p class="mirror-title">{{ nextMirror.title }}</p>
+    </div>
+  </div>
+
+  <p>{{ mirror.description }}</p>
+
+  <div class="accordion">
+    <div class="accordion-item">
+      <button class="accordion-button">Pros</button>
+      <div class="accordion-content">
+        <ul>
+          {% for pro in mirror.pros %}
+            <li>{{ pro }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-button">Cons</button>
+      <div class="accordion-content">
+        <ul>
+          {% for con in mirror.cons %}
+            <li>{{ con }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="reflection-questions">
+    <h2 class="elemental water">Reflection Questions</h2>
+    {% if mirror.questions %}
+      <ul>
+        {% for question in mirror.questions %}
+          <li>{{ question }}</li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No reflection questions available for this mirror.</p>
+    {% endif %}
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const accordionButtons = document.querySelectorAll(".accordion-button");
+
+    accordionButtons.forEach((button) => {
+      button.addEventListener("click", function () {
+        const content = this.nextElementSibling;
+        content.classList.toggle("expanded");
+        
+        // Toggle max-height for smooth open/close
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    });
+  });
+</script>

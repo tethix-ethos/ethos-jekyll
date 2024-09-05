@@ -48,7 +48,13 @@
       
   </main>
 
-  <script>
+  <script>    
+        // Triggers an opacity transition when the page loads
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+        });
+
+        // RANDOM QUESTION SCRIPT
 		// Load the reflection questions as a JSON
 		const questions = [
 			{% for reflection in site.data.reflections %}

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="mirrors-container">
+  <h1 class="elemental mirror">Tethix Mirrors</h1>
+  <div class="mirrors-grid">
+    {% for mirror in site.data.mirrors %}
+      <a href="{{ '/mirrors/' | append: mirror.type | relative_url }}">
+        <div class="mirror-card">
+          <img src="{{ '/assets/img/mirror-' | append: mirror.type | append: '.svg' | relative_url }}" alt="{{ mirror.title }} Image">
+          <h2>{{ mirror.title }}</h2>
+          <a href="{{ '/mirrors/' | append: mirror.type | relative_url }}"><button class="water">Enter</button></a>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+<hr style="margin-top: 80px;"/>
+<div class="page-content">
+  {{ content }}
+</div>

@@ -1,0 +1,84 @@
+- type: bright
+  title: "Bright Mirror"
+  order: 1
+  description: "The Bright Mirror perspective reflects a utopian future where technology is an unequivocal force for good, elevating human capabilities and solving societal problems."
+  pros:
+    - "Inspirational: fosters a culture of possibility and ‘can-do’ optimism."
+    - "Resource attraction: positive outlooks can attract talent and investment"
+    - "Long-term vision: allows for the setting of ambitious, aspirational goals."
+  cons:
+    - "Blind spots: could overlook critical ethical and social implications."
+    - "Echo chamber: risks creating an environment where only positive aspects are discussed."
+    - "Unrealistic expectations: may set unattainable standards, leading to disappointment."
+  questions:
+    - "What is the best possible outcome we could hope for?"
+    - "How might this technology realise human potential?"
+    - "How does this technology align with shared human values?"
+    - "What legacy could this technology leave for future generations?"
+    - "Who is included and excluded?"
+    - "How might this technology promote equity and justice in society?"
+    - "How might this technology enhance education and learning opportunities?"
+
+- type: dark
+  title: "Dark Mirror"
+  order: 2
+  description: "The Dark Mirror view is the cautionary tale, forewarning of a dystopian future where technology exacerbates human flaws and subjugates individuals and the environment, leading to societal decay."
+  pros:
+    - "Risk mitigation: helps identify potential downsides early on, allowing for preventive measures."
+    - "Ethical safeguard: forces us to confront uncomfortable truths, serving as a moral guardrail or threshold."
+    - "Civic engagement: can mobilise public opinion against potentially harmful technologies."
+  cons:
+    - "Innovation dampener: might discourage groundbreaking initiatives due to fear of worst-case scenarios."
+    - "Cynicism: could lead to a general distrust of technology, hampering constructive engagement."
+    - "Paralysis: risks creating a ‘deer in the headlights’ effect where the fear of doing something wrong prevents any action."
+  questions:
+    - "What are the power dynamics at play with this technology?"
+    - "How could this technology be weaponised, literally or metaphorically?"
+    - "What’s the worst-case scenario here?"
+    - "How could this technology amplify existing inequalities or human flaws?"
+    - "Who is missing from the conversation in its development?"
+    - "Who is most likely to be negatively impacted?"
+    - "What about the non-human living systems in our environment, where do they fit?"
+
+- type: grey
+  title: "Grey Mirror"
+  order: 3
+  description: "The Grey Mirror offers a pragmatic outlook, acknowledging that technology is a double-edged sword with both positive and negative impacts, requiring careful management."
+  pros:
+    - "Holistic analysis: encourages weighing the good with the bad for a comprehensive outlook."
+    - "Pragmatism: fosters a balanced approach to ethical considerations and functional demands."
+    - "Resilience: prepares us for both success and failure, making for a more adaptable strategy."
+  cons:
+    - "Middling impact: may result in solutions that are adequate but not extraordinary."
+    - "Decisional complexity: the nuanced view can complicate the decision-making process."
+    - "Apathy: a focus on balance could be interpreted as a lack of moral conviction."
+  questions:
+    - "What good and bad outcomes can we expect from this tech?"
+    - "How might this tech cause trouble or help us out?"
+    - "How will this tech change the way we already do things?"
+    - "What steps can we take to reduce any harm this tech might cause?"
+    - "If something goes wrong with this tech, what’s our backup plan?"
+    - "How will we make sure this tech is fair to everyone?"
+    - "How will we check on this tech to keep it safe and useful?"
+    - "Can we easily fix or change this tech if we need to?"
+
+- type: rainbow
+  title: "Rainbow Mirror"
+  order: 4
+  description: "The Rainbow Mirror promotes a diverse, inclusive, regenerative and interconnected vision of technology, aiming for a future where tech enriches human life and the environment in a balanced way."
+  pros:
+    - "Civic participation: promotes grassroots involvement and democratisation of technology."
+    - "Ecological balance: encourages tech solutions that are sustainable and harmonious with nature."
+    - "Social cohesion: could lead to technologies that actively reduce social inequalities."
+  cons:
+    - "Resource intensive: may require significant effort to include diverse perspectives."
+    - "Idealism: could be dismissed as too utopian and thus not actionable."
+    - "Dilution of focus: aiming to serve too many goals could result in none being achieved effectively."
+  questions: 
+    - "How can we ensure this technology serves diverse needs and is accessible to all?"
+    - "What kind of systemic changes might this technology initiate?"
+    - "How can this technology cultivate regenerative practices?"
+    - "What would the world look like if access to this technology was a basic human right?"
+    - "How does this tech support and impact non-human life giving systems?"
+    - "How might this tech support mutually assured thriving?"
+    - "What does more grassroots collective governance of this technology look like?"

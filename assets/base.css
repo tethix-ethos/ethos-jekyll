@@ -546,7 +546,9 @@ h2.earth {
     text-underline-offset: 10px;
 }
 h1.water,
-h2.water {
+h2.water,
+h1.mirror,
+h2.mirror {
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-decoration-color: var(--water);
@@ -585,6 +587,9 @@ h2.elemental::before {
 .fire::before {
     background-image: url('/assets/img/fire.svg');
 }
+.mirror::before {
+    background-image: url('/assets/img/mirror.svg');
+}
 .tagline {
     font-family: 'Zilla Slab', serif;
     font-size: 18px;
@@ -597,6 +602,11 @@ body.dashboard {
     background-color: var(--earth);
     background: url('/assets/img/bckg/pexels-nejc-košir-338936.jpg') center center fixed no-repeat;
     background-size: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+body.dashboard.loaded {
+    opacity: 1;
 }
 #page-header.dashboard-header {
     color: lightgray;
@@ -752,7 +762,143 @@ body.dashboard {
     }
 }
 .fade-in {
-    animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+/* MIRRORS */
+/* List of mirrors */
+.mirrors-container {
+    text-align: center;
+    margin: 40px auto;
+}
+.mirrors-container h1 {
+    margin-bottom: 40px;
+}
+.mirrors-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.mirror-card {
+    background-color: #fff;
+    border: 2px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: 0.3s ease-in-out;
+    width: 240px;
+    text-decoration: none;
+    color: inherit;
+}
+.mirror-card:hover {
+    border-color: var(--gray);
+    background-color: var(--purple-bg);
+}
+.mirror-card img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.mirror-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+.mirror-card a {
+    text-decoration: none;
+    color: inherit;
+}
+.mirror-card button {
+    margin-bottom: 10px;
+}
+/* Individual mirror pages */
+.mirror-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.mirror-grid {
+    display: grid;
+    grid-template-columns: 150px 1fr 150px; 
+    gap: 20px; 
+    align-items: center; 
+    text-align: center;
+}
+  
+.mirror-header img {
+    width: auto;
+    max-height: 300px;
+}
+.mirror-title {
+    font-size: 16px;
+    margin-top: 5px;
+    color: var(--dark-gray);
+}
+.prev-arrow,
+.next-arrow {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--water);
+    transition: color 0.3s ease;
+    display: block;
+}
+.prev-arrow:hover,
+.next-arrow:hover {
+    color: var(--fire);
+}  
+.accordion {
+    margin: 20px 0;
+}
+.accordion-item {
+    margin-bottom: 10px;
+}
+.accordion-button {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--gray);
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+.accordion-button:hover {
+    background-color: var(--dark-gray);
+}
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: var(--purple-bg);
+    padding: 0 15px;
+    border-radius: 0 0 8px 8px;
+} 
+.accordion-content ul {
+    list-style-type: disc;
+    margin: 10px 0;
+    padding: 10px;
+}
+.accordion-content ul li {
+    margin: 5px 0;
+} 
+.accordion-content.expanded {
+    max-height: 150px;
+}
+.reflection-questions {
+    margin-top: 40px;
+}
+.reflection-questions h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.reflection-questions li {
+    font-size: 18px;
 }
 
 
@@ -881,9 +1027,11 @@ body.dashboard {
         padding: 1em 12px 2em;
     }
     .home-list,
-    .intents-list {
+    .intents-list,
+    .mirrors-grid {
         display: flex; 
         flex-direction: column;
+        align-items: center;
     }
     .page-content {
         padding: 40px 30px;
@@ -916,5 +1064,17 @@ body.dashboard {
         margin: 0 auto;
         padding: 1em 0.5em;
         font-size: 26px;
+    }
+    .mirror-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .mirror-header {
+        order: 3;
+    }
+    .prev-column,
+    .next-column,
+    .mirror-header {
+        text-align: center;
     }
 }
