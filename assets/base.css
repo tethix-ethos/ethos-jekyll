@@ -486,11 +486,12 @@ a .home-card.fire:hover {
 }
 .seed-set {
     margin-top: 4em;
-    border-top: 2px solid var(--earth);
 }
 .seed-set h2 {
+    padding-top: 2em;
     margin-top: 2em;
     text-wrap: balance;
+    border-top: 2px solid var(--earth);
 }
 .list-of-creators {
     list-style-type: none;
