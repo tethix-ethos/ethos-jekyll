@@ -1,6 +1,6 @@
 ---
 title: "Taxonomy of Tethix Mirrors"
-date: 2024-09-04 00:00
+date: 2023-11-14 00:00
 author: Tethix
 website: https://tethix.co/earth/introducing-the-taxonomy-of-tethix-mirrors/
 ---

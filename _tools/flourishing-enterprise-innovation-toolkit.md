@@ -1,8 +1,12 @@
 ---
 title: "Flourishing Enterprise Innovation Toolkit"
-date: 2024-09-04 00:00
+date: 2022-05-03 00:01:03
 author: Flourishing enterprise Co-lab
 website: https://flourishingbusiness.org/
+description: >
+    The Flourishing Enterprise Innovation Toolkit enables leaders to design their flourishing enterprise: socially beneficial, environmentally regenerative and financially viable.  
+categories:
+ - Canvases
 ---
 
 The Flourishing Business Toolkit introduces the new paradigm of “sustainability as flourishing” expressed as a normative goal and desirable outcome.

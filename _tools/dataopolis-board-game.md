@@ -1,8 +1,12 @@
 ---
 title: "Dataopolis Board Game"
-date: 2024-09-04 00:00
+date: 2021-04-15 03:24:50
 author: Open Data Institute
-website: https://datopolis.theodi.org/about/
+website: http://datopolis.theodi.org/about/
+description: >
+    Datopolis is a board game about building things - services, websites, devices, apps, research - using closed and open data. 
+categories:
+ - Board Games
 ---
 
 Datopolis is a board game about building things – services, websites, devices, apps, research – using closed and open data. It was designed and developed by Ellen Broad and Jeni Tennison at the Open Data Institute

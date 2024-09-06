@@ -1,8 +1,12 @@
 ---
 title: "Data Ethics Canvas"
-date: 2024-09-04 00:00
+date: 2021-03-06 12:40:49
 author: Open Data Institute
-website: https://theodi.org/news-and-events/blog/data-ethics-canvas/
+website: https://theodi.org/article/data-ethics-canvas/
+description: >
+    A visual collaboration tool to help identify and manage ethical issues.
+categories:
+ - Canvases
 ---
 
 The Data Ethics Canvas is a tool for anyone who collects, shares or uses data. It helps identify and manage ethical issues – at the start of a project that uses data, and throughout.
