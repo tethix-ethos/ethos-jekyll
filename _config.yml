@@ -80,7 +80,17 @@ pagination:
   permalink: '/page/:num/'
 
 autopages:
-  enabled: false
+  enabled: true
+  categories: 
+    enabled: true
+    title: 'Tools in category <span class="autopage-keyword">:cat</span>'
+    permalink: '/tools/categories/:cat'
+    silent: false
+    slugify:
+      mode: 'default'   # :cat is slugified. Modes: default, raw, pretty, ascii, latin
+      case: true       # Whether to replace all uppercase letters with their lowercase counterparts
+  collections: 
+    enabled: false
 
 # Feed settings
 feed:

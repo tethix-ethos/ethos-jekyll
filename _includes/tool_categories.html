@@ -1,0 +1,8 @@
+{% assign categories = tool.categories | default: page.categories %}
+<div class="intent-categories">
+    {%- for category in categories -%}
+    {% assign category_slug = category | slugify | downcase %}
+    {% assign category_path = '/tools/categories/' | append: category_slug %}
+    <a href="{{ category_path | relative_url }}">{{ category }}</a>&nbsp;
+    {%- endfor -%}
+</div>

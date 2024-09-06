@@ -515,16 +515,59 @@ a .home-card.fire:hover {
     text-wrap: balance;
     border-top: 2px solid var(--earth);
 }
-.list-of-creators {
-    list-style-type: none;
-    padding: 0;
+.intent-categories {
+    margin-top: 1em;
 }
-.list-of-creators li {
-    display: inline;
+.intent-categories a {
+    background-color: var(--gray);
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 6px 12px;
+    white-space: nowrap;
+    -webkit-transition: color .8s ease, background-color .8s ease;
+    transition: color .8s ease, background-color .8s ease;    
 }
-.list-of-creators li:not(:last-of-type)::after {
-    content: ',';
-    padding-right: 4px;
+.intent-categories a:hover {
+    background-color: var(--light-gray);
+    color: var(--water);
+}
+.tools-categories {
+    background-color: var(--purple-bg);
+    padding: 1em 0.5em;
+    border-radius: 12px;
+    color: var(--dark-gray);
+    text-align: center;
+}
+.tools-categories .intent-categories {
+    margin-top: 0.5em;
+}
+.tools-categories .intent-categories a {
+    line-height: 38px;
+}
+a.current-category {
+    background-color: var(--fire);
+}
+a.current-category:hover {
+    background-color: var(--fire);
+    color: white;
+    filter: saturate(75%);
+    cursor: pointer;
+}
+.intent-author {
+    margin-top: -0.5em;
+}
+.intent-date {
+    color: var(--dark-gray);
+    font-family: 'Zilla Slab', serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 2em;
+    margin-top: 3em;
+    border-top: 1px solid var(--gray);
+}
+.intent-date::before {
+    content: "Date added: ";
 }
 .page-content {
     max-width: 840px;

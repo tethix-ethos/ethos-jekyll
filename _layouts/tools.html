@@ -6,15 +6,39 @@ pagination:
 ---
 
 <h1 class="elemental fire">Tools and techniques</h1>
+{%- if page.title != "Tools" -%}
+{% assign current_url = page.url | replace: "/index.html", "" %}
+{% assign current_slug = current_url | split: '/' | last %}
+{% assign current_category = site.data.tools_categories | where: "slug", current_slug | first %}
+<p class="tagline">Browsing tools in category <strong>{{ current_category.title }}</strong></p>
+{%- endif -%}
+
 <p>{{ content | markdownify }}</p>
+
+{% assign page_url = page.url | trim: '/' %}
+<div class="tools-categories">
+  <div class="intent-categories">
+    <a href="{{ '/tools/' | relative_url }}" {% if page_url == '/tools/index.html' %}class="current-category"{% endif %}>
+      All categories
+    </a>&nbsp;
+    {% for category in site.data.tools_categories %}
+      <a href="{{ '/tools/categories/' | append: category.slug | relative_url }}" {% if page_url contains category.slug %}class="current-category"{% endif %}>
+        {{ category.title }}
+      </a>&nbsp;
+    {% endfor %}
+  </div>
+</div>
+
 <div class="intents-list">
     {%- for tool in paginator.posts -%}
     <div class="intent-card">
       <h2><a href="{{ tool.url | relative_url }}">{{ tool.title }}</a></h2>
-    
-      <ul class="list-of-creators">Crafted by:
-        <li class="list-other">{{ tool.author }}</li>
-      </ul>
+
+      <div class="intent-author">Crafted by: {{ tool.author }}</div>
+
+      {%- if tool.categories -%}
+      {% include tool_categories.html %}
+      {%- endif -%}
 
       <p class="tagline">{% if tool.description %}{{ tool.description | truncate: 280 }}{% else %}{{ tool.content | strip_html | truncate: 280 }}{% endif %}</p>
     </div>
