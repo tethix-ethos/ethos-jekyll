@@ -149,6 +149,28 @@ title: CSS stylesheet
 }
 
 
+/* Scrollbar color */
+html {
+    scrollbar-color: var(--gray) #f4f4f8;
+    scrollbar-width: auto;
+}
+/* WebKit and Chromiums */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: #f4f4f8;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--gray);
+    border-radius: 12px;
+}
+/* Text selection color */
+::selection {
+    color: white;
+    background-color: var(--water);
+}
+
+
 body {
     margin: 0;
     font-family: 'Plus Jakarta Sans', sans-serif;
