@@ -484,10 +484,13 @@ a .home-card.fire:hover {
     max-width: 600px;
     margin: 0 auto;
 }
-.detail-section {
-    padding: 2em 0;
+.seed-set {
     margin-top: 4em;
     border-top: 2px solid var(--earth);
+}
+.seed-set h2 {
+    margin-top: 2em;
+    text-wrap: balance;
 }
 .list-of-creators {
     list-style-type: none;
