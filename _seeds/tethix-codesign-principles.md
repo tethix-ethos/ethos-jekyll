@@ -33,4 +33,4 @@ Every iteration cycle provides more opportunity to continue designing with peopl
 
 ## Harness human diversity
 
-We do whatever, whenever we can to harness the diversity within and outside our community. Acknowledging our unique differences and strengths. Recognising the powerful insights that come from people that a lived experience different to our own. Cross pollinating to inform the best approaches that can help us achieve our purpose.
+We do whatever, whenever we can to harness the diversity within and outside our community. Acknowledging our unique differences and strengths. Recognising the powerful insights that come from people with a lived experience different to our own. Cross pollinating to inform the best approaches that can help us achieve our purpose.
