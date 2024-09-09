@@ -1,6 +1,7 @@
 ---
 title: "Safety by Design"
 date: 2021-10-06 04:24:38
+year_published: 2021
 author: eSafety Commissioner | Australia
 website: https://www.esafety.gov.au/about-us/safety-by-design
 description: >

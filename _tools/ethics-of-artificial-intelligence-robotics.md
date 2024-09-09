@@ -1,6 +1,7 @@
 ---
 title: "Ethics of Artificial Intelligence & Robotics"
 date: 2021-03-13 20:48:05
+year_published: 2020
 author: Stanford Encyclopaedia of Philosophy
 website: https://plato.stanford.edu/entries/ethics-ai/
 description: >

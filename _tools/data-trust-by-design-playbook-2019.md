@@ -1,6 +1,7 @@
 ---
 title: "Data Trust by Design Playbook 2019"
 date: 2022-06-08 01:04:42
+year_published: 2019
 author: Greater Than Experience
 website: https://tethix.co/wp-content/uploads/2022/02/Data-Trust-by-Design_2019_FirstEdition.pdf
 description: >

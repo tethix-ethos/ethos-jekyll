@@ -1,6 +1,7 @@
 ---
 title: "Values in computing"
 date: 2024-09-09 09:00:00
+year_published: 2017
 author: ViC research team at Lancaster University
 website: http://www.valuesincomputing.org/
 description: >

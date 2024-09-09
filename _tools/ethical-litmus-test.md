@@ -1,6 +1,7 @@
 ---
 title: "Ethics Litmus Test"
 date: 2021-03-09 01:14:02
+year_published: 2019
 author: Debias.Ai
 website: https://www.ethical-litmus.site/
 description: >

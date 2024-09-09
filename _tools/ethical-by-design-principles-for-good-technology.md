@@ -1,6 +1,7 @@
 ---
 title: "Ethical By Design: Principles for Good Technology"
 date: 2022-02-07 00:40:30
+year_published: 2018
 author: The Ethics Centre
 website: https://ethics.org.au/ethical-by-design/
 description: >

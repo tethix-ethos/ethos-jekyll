@@ -2,6 +2,7 @@
 title: "Ethical Explorer Pack"
 date: 2024-09-09 09:10:00
 author: Omidyar Network
+year_published: 2020
 website: https://ethicalexplorer.org/
 description: >
     The Ethical Explorer Pack is a tool for sparking dialogue, identifying early warning signs, and brainstorming positive solutions.

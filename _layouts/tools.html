@@ -34,13 +34,15 @@ pagination:
     <div class="intent-card">
       <h2><a href="{{ tool.url | relative_url }}">{{ tool.title }}</a></h2>
 
-      <div class="intent-author">Crafted by: {{ tool.author }}</div>
+      <div class="intent-meta">Crafted by: {{ tool.author }}{%- if tool.year_published -%}&#32;·&nbsp;{{ tool.year_published }}{%- endif -%}</div>
+
+
+
+      <p class="tagline">{% if tool.description %}{{ tool.description | truncate: 280 }}{% else %}{{ tool.content | strip_html | truncate: 280 }}{% endif %}</p>
 
       {%- if tool.categories -%}
       {% include tool_categories.html %}
       {%- endif -%}
-
-      <p class="tagline">{% if tool.description %}{{ tool.description | truncate: 280 }}{% else %}{{ tool.content | strip_html | truncate: 280 }}{% endif %}</p>
     </div>
     {%- endfor -%}
 </div>

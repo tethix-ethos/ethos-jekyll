@@ -12,7 +12,7 @@ pagination:
     <div class="intent-card">
       <h2><a href="{{ seed.url | relative_url }}">{{ seed.title }}</a></h2>
     
-      <div class="intent-author">Crafted by: {{ seed.author }}</div>
+      <div class="intent-meta">Crafted by: {{ seed.author }}</div>
 
       <p class="tagline">{% if seed.description %}{{ seed.description | truncate: 280 }}{% else %}{{ seed.content | strip_html | truncate: 280 }}{% endif %}</p>
     </div>

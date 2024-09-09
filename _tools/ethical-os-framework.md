@@ -1,6 +1,7 @@
 ---
 title: "Ethical OS Framework"
 date: 2021-03-13 20:42:47
+year_published: 2018
 author: Institute for the future and Omidyar Network
 website: https://ethicalos.org/
 description: >

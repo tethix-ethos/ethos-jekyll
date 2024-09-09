@@ -1,6 +1,7 @@
 ---
 title: "Business Ethics Canvas"
 date: 2021-03-11 00:41:26
+year_published: 2019
 author: Richard Vidgen
 website: https://datasciencebusiness.wordpress.com/2019/05/26/business-ethics-canvas-bec/
 description: >

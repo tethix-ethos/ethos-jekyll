@@ -1,6 +1,7 @@
 ---
 title: "Consequence Scanning Agile Kit"
 date: 2021-03-15 01:44:33
+year_published: 2019
 author: Open Data Institute
 website: https://www.tech-transformed.com/product-development/
 description: >

@@ -1,6 +1,7 @@
 ---
 title: "The ethics of advanced AI assistants"
 date: 2024-09-09 11:00:00
+year_published: 2024
 author: Google DeepMind & other researchers
 website: https://deepmind.google/discover/blog/the-ethics-of-advanced-ai-assistants/
 categories:

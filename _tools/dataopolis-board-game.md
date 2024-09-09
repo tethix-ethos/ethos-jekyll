@@ -1,6 +1,7 @@
 ---
 title: "Dataopolis Board Game"
 date: 2021-04-15 03:24:50
+year_published: 2020
 author: Open Data Institute
 website: http://datopolis.theodi.org/about/
 description: >

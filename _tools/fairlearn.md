@@ -1,6 +1,7 @@
 ---
 title: "Fairlearn"
 date: 2024-09-09 10:25:00
+year_published: 2020
 author: Fairlearn contributors
 website: https://fairlearn.org/
 description: >

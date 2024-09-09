@@ -1,6 +1,7 @@
 ---
 title: "Language Interpretability Tool"
 date: 2021-04-14 03:49:06
+year_published: 2020
 author: Google PAIR
 website: https://pair-code.github.io/lit/
 description: >

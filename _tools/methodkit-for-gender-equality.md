@@ -1,6 +1,7 @@
 ---
 title: "MethodKit for Gender Equality"
 date: 2021-03-15 02:02:09
+year_published: 2014
 author: MethodKit, Maktsalongen
 website: https://methodkit.com/shop/methodkit-for-equality/
 description: >

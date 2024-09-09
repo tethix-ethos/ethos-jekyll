@@ -1,6 +1,7 @@
 ---
 title: "Ethical tools for designers"
 date: 2021-03-15 02:10:20
+year_published: 2017
 author: Jet Gispen
 website: https://www.ethicsfordesigners.com/tools
 description: >

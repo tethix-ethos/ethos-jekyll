@@ -326,27 +326,6 @@ hr {
     border-radius: 8px;
 }
 
-input,
-textarea,
-select {
-    border: 1px solid var(--gray);
-    border-radius: 4px;
-    font-size: 18px;
-    padding: 8px;
-    font-family: 'Plus Jakarta Sans', Helvetica, Arial, sans-serif;
-}
-input:focus,
-textarea:focus {
-    border-color: var(--water);
-}
-select option {
-    padding: 4px 8px;
-}
-select option:checked {
-    background-color: var(--water);
-    color: white;
-}
-
 .btn,
 button {
     background-color: var(--water);
@@ -517,6 +496,7 @@ a .home-card.fire:hover {
 }
 .intent-categories {
     margin-top: 1em;
+    display: inline;
 }
 .intent-categories a {
     background-color: var(--gray);
@@ -554,17 +534,46 @@ a.current-category:hover {
     filter: saturate(75%);
     cursor: pointer;
 }
-.intent-author {
+a.tool-website {
+    font-size: 16px;
+    font-weight: normal;
+    vertical-align: middle;
+    background-color: var(--fire);
+    padding: 0.5em 0.6em;
+    border-radius: 6px;
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+    -webkit-transition: filter .8s ease;
+    transition: filter .8s ease;
+}
+a.tool-website:hover {
+    color: white;
+    background-color: var(--fire);
+    filter: saturate(75%);
+}
+a.tool-website::before {
+    filter: invert(100%) sepia(0%) saturate(656%) hue-rotate(262deg) brightness(110%) contrast(101%);
+}
+.tool-details {
+    padding-top: 1em;
+}
+.tool-footer {
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+    margin-top: 3em;
+    border-top: 2px solid var(--fire);
+}
+.intent-meta {
     margin-top: -0.5em;
+    color: var(--dark-gray);
 }
 .intent-date {
     color: var(--dark-gray);
     font-family: 'Zilla Slab', serif;
     font-size: 18px;
     font-weight: 300;
-    padding-top: 2em;
-    margin-top: 3em;
-    border-top: 1px solid var(--gray);
+    margin-top: 1em;
 }
 .intent-date::before {
     content: "Date added: ";

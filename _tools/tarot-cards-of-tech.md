@@ -1,6 +1,7 @@
 ---
 title: "The Tarot Cards of Tech"
 date: 2023-01-01 00:00
+year_published: 2019
 author: Artefact Group
 website: https://tarotcardsoftech.artefactgroup.com/
 categories:

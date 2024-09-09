@@ -1,6 +1,7 @@
 ---
 title: "Community Jury"
 date: 2021-03-06 12:51:10
+year_published: 2022
 author: Microsoft
 website: https://docs.microsoft.com/en-us/azure/architecture/guide/responsible-innovation/community-jury/
 description: >

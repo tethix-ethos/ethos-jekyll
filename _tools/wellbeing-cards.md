@@ -1,8 +1,9 @@
 ---
 title: "Wellbeing Cards"
 date: 2021-03-15 02:17:55
+year_published: 2020
 author: Dorian Peters
-website: https://drive.google.com/file/d/1A13v68seBD9GS2qfIdJYmte5ujlhFcl8/view
+website: https://www.positivecomputing.org/blog/wellbeing-supportive-design-toolkit
 description: >
     Cards to provide at-a-glance insights into the 3 Basic Psychological Needs and the 6 Spheres of Technology Experience.
 categories:

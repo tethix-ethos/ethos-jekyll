@@ -1,6 +1,7 @@
 ---
 title: "AI Blindspot Cards"
 date: 2024-09-09 10:15:00
+year_published: 2019
 author: Ania Calderon, Dan Taber, Hong Qu, and Jeff Wen
 website: https://aiblindspot.media.mit.edu/
 description: >

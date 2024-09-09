@@ -1,6 +1,7 @@
 ---
 title: "Ethically Aligned Design"
 date: 2021-03-31 02:49:39
+year_published: 2017
 author: IEEE
 website: https://ethicsinaction.ieee.org/
 description: >

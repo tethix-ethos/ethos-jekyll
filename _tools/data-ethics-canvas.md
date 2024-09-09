@@ -1,6 +1,7 @@
 ---
 title: "Data Ethics Canvas"
 date: 2021-03-06 12:40:49
+year_published: 2019
 author: Open Data Institute
 website: https://theodi.org/article/data-ethics-canvas/
 description: >

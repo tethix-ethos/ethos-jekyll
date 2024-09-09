@@ -1,6 +1,7 @@
 ---
 title: "Better Disclosure Canvas"
 date: 2021-03-31 05:18:56
+year_published: 2021
 author: Greater Than Experience
 website: https://tethix.co/better-disclosure-canvas-interactive/
 description: >

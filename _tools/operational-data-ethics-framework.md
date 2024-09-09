@@ -1,6 +1,7 @@
 ---
 title: "Operational Data Ethics Framework"
 date: 2021-03-31 04:58:54
+year_published: 2020
 author: Greater Than Experience
 website: https://app.mural.co/t/greaterthanexperience9110/m/greaterthanexperience9110/1602636886858/f51c4c1063317b55ac213029098e53aac52c1178
 description: >

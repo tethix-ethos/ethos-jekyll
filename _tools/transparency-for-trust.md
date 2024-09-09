@@ -1,6 +1,7 @@
 ---
 title: "Transparency for Trust"
 date: 2021-03-15 01:31:56
+year_published: 2019
 author: Til Wykes & Stephen Schueller
 website: https://www.jmir.org/2019/5/e12390/
 description: >

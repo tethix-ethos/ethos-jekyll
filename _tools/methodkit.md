@@ -1,6 +1,7 @@
 ---
 title: "MethodKit with Privileges"
 date: 2021-03-15 01:49:19
+year_published: 2019
 author: MethodkKit, STREETGÄRIS
 website: https://methodkit.com/shop/methodkit-with-privileges/
 description: >

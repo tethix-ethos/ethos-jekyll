@@ -1,6 +1,7 @@
 ---
 title: "Responsible tech playbook"
 date: 2024-09-09 09:15:00
+year_published: 2021
 author: Thoughtworks
 website: https://www.thoughtworks.com/about-us/social-change/responsible-tech-playbook
 description: >

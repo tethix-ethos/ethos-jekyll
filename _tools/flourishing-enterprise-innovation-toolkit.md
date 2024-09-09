@@ -1,6 +1,7 @@
 ---
 title: "Flourishing Enterprise Innovation Toolkit"
 date: 2022-05-03 00:01:03
+year_published: 2014
 author: Flourishing enterprise Co-lab
 website: https://flourishingbusiness.org/
 description: >

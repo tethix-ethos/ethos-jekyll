@@ -1,6 +1,7 @@
 ---
 title: "Ethics Kit"
 date: 2021-03-15 00:35:43
+year_published: 2019
 author: Phil Hasketh
 website: https://www.ethicskit.org/tools.html
 description: >

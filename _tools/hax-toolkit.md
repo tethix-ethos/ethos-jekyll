@@ -1,6 +1,7 @@
 ---
 title: "HAX Toolkit"
 date: 2024-09-04 00:00
+year_published: 2021
 author: Microsoft
 website: https://www.microsoft.com/en-us/haxtoolkit/
 description: >

@@ -1,6 +1,7 @@
 ---
 title: "Ask Delphi"
 date: 2024-09-09 08:00
+year_published: 2021
 author: The Allen Institute for Artificial Intelligence
 website: https://delphi.allenai.org/
 categories:

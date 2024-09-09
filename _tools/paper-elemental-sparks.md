@@ -1,6 +1,7 @@
 ---
 title: "Paper Elemental Sparks"
 date: 2024-03-08 04:20:00
+year_published: 2023
 author: Alja Isakovic and Mathew Mytka
 website: https://tethix.co/paper-sparks/
 description: >

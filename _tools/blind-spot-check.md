@@ -1,6 +1,7 @@
 ---
 title: "Blind Spot Check"
 date: 2021-03-09 01:57:43
+year_published: 2019
 author: IDEO
 website: https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help
 description: >

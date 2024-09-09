@@ -1,6 +1,7 @@
 ---
 title: "Designing for Motivation, Engagement and Wellbeing in DX"
 date: 2021-03-15 01:28:06
+year_published: 2018
 author: Dorian Peters, Rafael Calvo, &amp; Richard M. Ryan
 website: https://www.frontiersin.org/articles/10.3389/fpsyg.2018.00797/full
 description: >

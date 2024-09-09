@@ -1,6 +1,7 @@
 ---
 title: "Deon Command Line Tool"
 date: 2021-03-06 12:56:35
+year_published: 2018
 author: Driven Data
 website: http://deon.drivendata.org/
 description: >

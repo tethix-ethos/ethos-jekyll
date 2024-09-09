@@ -1,6 +1,7 @@
 ---
 title: "Aequitas bias audit toolkit"
 date: 2021-04-14 09:49:33
+year_published: 2018
 author: Center for Data Science and Public Policy
 website: http://www.datasciencepublicpolicy.org/projects/aequitas/
 description: >

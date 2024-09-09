@@ -1,6 +1,7 @@
 ---
 title: "An Ethical Toolkit for Engineering/Design Practice"
 date: 2024-09-09 09:45:00
+year_published: 2018
 author:  Markkula Center of Applied Ethics
 website: https://www.scu.edu/ethics-in-technology-practice/ethical-toolkit/
 description: >

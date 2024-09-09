@@ -1,8 +1,9 @@
 ---
 title: "PAI’s Responsible Practices for Synthetic Media"
 date: 2024-09-09 10:45:00
+year_published: 2023
 author: Partnership on AI (PAI)
-website: https://syntheticmedia.partnershiponai.org/#
+website: https://syntheticmedia.partnershiponai.org/
 description: >
     Partnership on AI’s (PAI) Responsible Practices for Synthetic Media is a framework on how to responsibly develop, create, and share synthetic media: the audiovisual content often generated or modified by AI.
 categories:

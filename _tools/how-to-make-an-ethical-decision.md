@@ -1,6 +1,7 @@
 ---
 title: "How To Make An Ethical Decision"
 date: 2021-03-11 00:54:47
+year_published: 2021
 author: Markkula Center at Santa Clara University
 website: https://www.scu.edu/ethics/ethics-resources/a-framework-for-ethical-decision-making/
 description: >

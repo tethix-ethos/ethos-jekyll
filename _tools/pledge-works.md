@@ -1,6 +1,7 @@
 ---
 title: "Pledge Works"
 date: 2022-03-03 22:50:34
+year_published: 2022
 author: ResponsibleTech.Work
 website: https://responsibletech.work/tools/development/pledge-works/
 description: >

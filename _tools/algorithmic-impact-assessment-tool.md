@@ -1,6 +1,7 @@
 ---
 title: "Algorithmic Impact Assessment Tool"
 date: 2021-03-14 23:34:04
+year_published: 2019
 author: Government Of Canada
 website: https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/algorithmic-impact-assessment.html
 description: >

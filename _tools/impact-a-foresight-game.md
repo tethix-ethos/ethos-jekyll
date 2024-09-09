@@ -1,6 +1,7 @@
 ---
 title: "Impact: A Foresight Game"
 date: 2021-03-15 01:38:36
+year_published: 2016
 author: Idea Couture
 website: https://boardgamegeek.com/boardgame/231278/impact-a-foresight-game
 description: >

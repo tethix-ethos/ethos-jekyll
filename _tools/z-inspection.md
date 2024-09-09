@@ -1,6 +1,7 @@
 ---
 title: "Z-Inspection"
 date: 2022-05-03 02:00:37
+year_published: 2020
 author: Roberto V. Zicari + team of researchers
 website: http://z-inspection.org/about/
 description: >

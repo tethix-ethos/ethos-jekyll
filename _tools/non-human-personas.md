@@ -1,6 +1,7 @@
 ---
 title: "Non Human Personas"
 date: 2024-06-01 00:00
+year_published: 2023
 author: lifecentred.design
 website: https://lifecentred.design/non-human-personas/
 categories:

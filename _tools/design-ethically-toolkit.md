@@ -1,6 +1,7 @@
 ---
 title: "Design Ethically Toolkit"
 date: 2021-03-10 23:58:15
+year_published: 2018
 author: Kat Zhou
 website: https://www.designethically.com/
 description: >

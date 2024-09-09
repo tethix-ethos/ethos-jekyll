@@ -1,6 +1,7 @@
 ---
 title: "Rainbow Mirrors GPT"
 date: 2024-09-04 00:00
+year_published: 2024
 author: Mathew Mytka
 website: https://chatgpt.com/g/g-KPz9WDVIB-rainbow-mirrors-gpt
 categories:
