@@ -2,7 +2,9 @@
 
 ![Tethix ETHOS](./assets/img/tethix-ethos-feature-img.png)
 
-ETHOS is a tool that can support your responsible tech journey in different ways. You can find more about ETHOS on the about page or keep reading to find more about how you can run your own version. 
+ETHOS is a tool that can support your responsible tech journey in different ways. You can find more about ETHOS on the about page or keep reading to find more about how you can run your own version.
+
+You can find the live website at [ethos.tethix.co](https://ethos.tethix.co)
 
 ## Tech stack 
 
