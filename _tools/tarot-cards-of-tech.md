@@ -4,7 +4,7 @@ date: 2023-01-01 00:00
 author: Artefact Group
 website: https://tarotcardsoftech.artefactgroup.com/
 categories:
- - Card Games
+ - Reflection Cards
 ---
 
 From feeds full of fake news to smartphone addiction, we are all waking up to the unintended consequences of technology. The team at Artefact Group think it's time to ditch the Silicon Valley mantra, "Move fast and break things" for a new approach: Slow down and ask the right questions.

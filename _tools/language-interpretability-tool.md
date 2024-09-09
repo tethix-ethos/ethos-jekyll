@@ -6,7 +6,7 @@ website: https://pair-code.github.io/lit/
 description: >
     The Language Interpretability Tool (LIT) is an open-source platform for visualisation and understanding of NLP models.
 categories:
- - Machine Learning
+ - Algorithmic Auditing
 ---
 
 The Language Interpretability Tool (LIT) is for researchers and practitioners looking to understand NLP model behavior through a visual, interactive, and extensible tool.

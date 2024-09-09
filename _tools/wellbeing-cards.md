@@ -2,11 +2,11 @@
 title: "Wellbeing Cards"
 date: 2021-03-15 02:17:55
 author: Dorian Peters
-website: http://www.positivecomputing.org/p/projects.html
+website: https://drive.google.com/file/d/1A13v68seBD9GS2qfIdJYmte5ujlhFcl8/view
 description: >
     Cards to provide at-a-glance insights into the 3 Basic Psychological Needs and the 6 Spheres of Technology Experience.
 categories:
- - Card Games
+ - Reflection Cards
 ---
 
 This set of 9 cards provide at-a-glance insights into the 3 Basic Psychological Needs (necessary for wellbeing, motivation and engagement) and the 6 Spheres of Technology Experience.

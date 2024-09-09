@@ -6,7 +6,7 @@ website: https://plato.stanford.edu/entries/ethics-ai/
 description: >
     General explanation and analysis of ethical issues with current technologies and what policy consequences may be drawn.
 categories:
- - Explanatory Guides
+ - Guides
 ---
 
 Artificial intelligence (AI) and robotics are digital technologies that will have significant impact on the development of humanity in the near future. They have raised fundamental questions about what we should do with these systems, what the systems themselves should do, what risks they involve, and how we can control these.

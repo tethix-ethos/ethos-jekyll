@@ -6,7 +6,7 @@ website: https://methodkit.com/shop/methodkit-with-privileges/
 description: >
     53 cards to raise awareness about privileges and norms.
 categories:
- - Card Games
+ - Reflection Cards
 ---
 
 <p>The collaboration card deck company, <a href="https://methodkit.com/kits/#kit-finder!loading">MethodKit</a>, produces a number of card decks that can help a team focus in on particular ethical issues. Among these is the MethodKit with <a href="https://methodkit.com/shop/methodkit-with-privileges/">privileges</a> deck.</p>

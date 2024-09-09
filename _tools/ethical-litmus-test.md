@@ -6,7 +6,7 @@ website: https://www.ethical-litmus.site/
 description: >
     A card deck to use at work, as a team or individual. Build up ethical capacity and vocabulary. 
 categories:
- - Prompting Questions
+ - Reflection Cards
 ---
 
 A card deck inspired by The Good Place, Oblique strategies, by Brian Eno, and a potent cocktail of feelings about the State of TechTM. The Ethics Litmus test was created to be accessible, beautiful, easy- to- use- tool which helps us move from an uncomfortable feeing to action.

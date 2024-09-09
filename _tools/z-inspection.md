@@ -6,7 +6,7 @@ website: http://z-inspection.org/about/
 description: >
     A general inspection process for Ethical AI which can be applied to a variety of domains such as business, healthcare, public sector, among many others, built on an applied ethics foundation.
 categories:
- - Machine Learning
+ - Algorithmic Auditing
 ---
 
 The Z-Inspection approach intends to guide innovators in the field of AI towards meaningful consideration and effective implementation of insights concerning ethical impacts of their developments and designs. It recommends a step-by-step process along the following points and provides tools and aids for each step:

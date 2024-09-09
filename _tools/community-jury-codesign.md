@@ -6,7 +6,7 @@ website: https://docs.microsoft.com/en-us/azure/architecture/guide/responsible-i
 description: >
     A participatory design technique used to engage a diverse group of stakeholders in the early stages of product design and development.
 categories:
- - Stakeholder Research Methods
+ - Frameworks
 ---
 
 Community jury, an adaptation of the citizen jury, is a technique where diverse stakeholders impacted by a technology are provided an opportunity to learn about a project, deliberate together, and give feedback on use cases and product design. This technique allows project teams to understand the perceptions and concerns of impacted stakeholders.

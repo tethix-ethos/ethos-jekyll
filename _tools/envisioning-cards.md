@@ -6,7 +6,7 @@ website: http://www.envisioningcards.com/
 description: >
     Based on nearly two decades of work in Value Sensitive Design, the Envisioning Cards are designed to evoke consideration and discussion of such concerns within the context of design practice.
 categories:
- - Card Games
+ - Reflection Cards
 ---
 
 Based on nearly two decades of work in Value Sensitive Design, the Envisioning Cards are designed to evoke consideration and discussion of such concerns within the context of design practice.

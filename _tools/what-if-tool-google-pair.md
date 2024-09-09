@@ -6,7 +6,7 @@ website: https://pair-code.github.io/what-if-tool/
 description: >
     A ML tool to visually probe the behavior of trained machine learning models, with minimal coding.
 categories:
- - Machine Learning
+ - Algorithmic Auditing
 ---
 
 A key challenge in developing and deploying responsible Machine Learning (ML) systems is understanding their performance across a wide range of inputs.

@@ -6,7 +6,7 @@ website: https://methodkit.com/shop/methodkit-for-equality/
 description: >
     A kit that focus on gender equality in organisations.
 categories:
- - Card Games
+ - Reflection Cards
 ---
 
 <p>The collaboration card deck company, <a href="https://methodkit.com/kits/#kit-finder!loading">MethodKit</a>, produces a number of card decks that can help a team focus in on particular ethical issues. Among these is the <a href="https://methodkit.com/shop/methodkit-for-equality/">gender equality</a> kit. <strong>MethodKit for Gender Equality</strong> is a kit that focus on equality in organizations, made together with <a href="http://maktsalongen.se/">Maktsalongen</a>.</p>
