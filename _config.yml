@@ -102,6 +102,12 @@ feed:
     tools:
       path: "/tools.xml"
 
+# SEO tag info
+author:
+  name: "Tethix"
+  type: "Organization"
+  url: "https://tethix.co"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
