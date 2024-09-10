@@ -3,7 +3,7 @@ title: "Ethically Aligned Design"
 date: 2021-03-31 02:49:39
 year_published: 2017
 author: IEEE
-website: https://ethicsinaction.ieee.org/
+website: https://standards.ieee.org/wp-content/uploads/import/documents/other/ead_v2.pdf/
 description: >
     A comprehensive report that combines conceptual frameworks, principles and recommendations to support the ethical design process.
 categories:
